@@ -1,0 +1,20 @@
+<button (click)="getProductDetails()" >productDetails</button>
+
+<ul>
+<li *ngFor="let product of productDetails">
+
+   {{
+       product.id
+   }}
+   {{
+    product.name
+    }}
+    {{
+        product.price
+    }}
+    {{
+        product.description
+    }}
+</li>
+
+</ul>
