@@ -9,6 +9,7 @@ export class ProductService {
   ,{'id':'2','name':'nike','description':'sports','price':'2000'},
   {'id':'3','name':'puma','description':'sports','price':'2000'}
   ]
+  
   constructor() { }
 
   getProductDetails()
